@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            color: black;
+        }
+
+        figure {
+            display: block;
+            border: 1px solid;
+            margin: 0;
+            border-radius: 10px;
+            color: aqua;
+        }
+
+        div#logo {
+            display: flex;
+            gap: 0 10px;
+
+        }
+
+        img {
+            width: 80px;
+            height: 40px;
+
+        }
+
+        #a1 {
+            line-height: 2;
+        }
+
+        div#aa1>input {
+            width: 400px;
+            height: 30px;
+            border-radius: 5px;
+            border-color: aqua;
+        }
+
+        div#aa2>input {
+            width: 200px;
+            height: 30px;
+        }
+
+        div#aa3>input {
+            width: 200px;
+            height: 30px;
+
+        }
+
+        #aaa4 {
+            display: flex;
+            gap: 0  30px;
+            
+        }
+        footer>input{
+            border: 0;
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+            background-color:blue ;
+            color: white;
+            margin: 10px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Select Card</h1>
+    </header>
+    <main>
+        <div id="logo">
+            <figure> <img src="anh11.png" alt=""></figure>
+            <figure> <img src="anh22.jpg" alt=""></figure>
+            <figure> <img src="anh33.webp" alt=""></figure>
+            <figure> <img src="anh44.png" alt=""></figure>
+            <figure> <img src="anh55.jpg" alt=""></figure>
+        </div>
+        <hr>
+        <div id="a1">
+            <div id="aa1">
+                <label for="">Card Number</label> <br>
+                <input type="text" value="5884 6241 4444 3333">
+            </div>
+            <div id="aaa4">
+                <div id="aa2">
+                    <label for="">Expiry Date</label> <br>
+                    <input type="date" value="MM/yy"> <br>
+                </div>
+                <div id="aa3">
+                    <label for="">CVC/CVV</label> <br>
+                    <input type="password" value="****">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <input type="submit" value="Save">
+    </footer>
+</body>
+
+</html>
